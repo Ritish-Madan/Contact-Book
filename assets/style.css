@@ -1,0 +1,29 @@
+#header{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(156, 154, 154);
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+#contact-list{
+    list-style: none;
+    margin-bottom: 20px;
+}
+#list-data{
+    margin-bottom: 20px;
+    display: flex;
+}
+#list-data span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.contact-add-form{
+    text-align: center;
+}
+#delete-button{
+    margin-left: 20px;
+}
