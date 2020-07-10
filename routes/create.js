@@ -3,6 +3,6 @@ const routes = express.Router();
 
 const createController = require("../home_controller/create.js");
 
-routes.post("/add", createController.create);
+routes.post("/add", createController.add);
 
 module.exports = routes;

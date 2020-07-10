@@ -2,7 +2,6 @@
 const Contact = require("../models/contact.js");
 
 // Controller Functions Set
-
 // Homepage Controller
 module.exports.home = function(req, res){
     Contact.find({}, function(err, contacts){

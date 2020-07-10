@@ -3,7 +3,7 @@ const Contact = require("../models/contact.js");
 
 // Controllers
 // Creating new Contact controllers
-module.exports.create = function(req, res){
+module.exports.add = function(req, res){
     Contact.create(req.body, function(err){
         if(err){
             console.log("Error while creating the contact");

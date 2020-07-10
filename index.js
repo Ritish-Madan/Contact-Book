@@ -15,10 +15,8 @@ app.set("views", __dirname); // Directory where all the view ejs files are locat
 app.use(express.urlencoded()); // Middleware to decode the form submission
 app.use(express.static("assets")); // To access the css and other styling docs
 app.use("/", require("./routes"));
-// Deleting the Contact with ID
 
-
-
+// Listening to the server
 app.listen(port, function(err){
     if(err){
         console.log("Error Occurred")

@@ -12,13 +12,12 @@
         <ul id="contact-list">
             <% for(let i of contact_list){%>
                 <li id="list-data">
-                    <span> <%= i.name %> :</span>
-                    <span> <%= i.phone %></span>
-                    <div id="delete-button">
-                        <a href="destroy/delete/<%= i._id %>">
-                            <button>Delete</button>
+                    <span id="contact-name"> <%= i.name %></span>
+                    <span id="contact-phone"> <%= i.phone %>
+                        <a id="delete-button" href="destroy/delete/<%= i._id %>">
+                            <button id="but">Delete</button>
                         </a>
-                    </div>
+                    </span>
                 </li>
             <% } %>
         </ul>
